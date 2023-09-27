@@ -68,6 +68,19 @@ namespace numberGuess
             Console.WriteLine("Minimun: " + rangeMin);
             Console.WriteLine("Maximum: " + rangeMax);
             Console.WriteLine("Num. Guesses: " + numguesses); 
+
+            // START THE MATCH!
+            while (playerScore != 3 && cpuScore != 3) {
+                //Any code you want to run BEFORE each round goes here.
+
+
+                // START EACH ROUND
+                for (int i = 0; i < numGuesses ; i++) {
+                    // Code to guess number goes here.
+                    
+                }
+
+            }
         }
     }
 }
