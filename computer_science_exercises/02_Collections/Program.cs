@@ -1,4 +1,4 @@
-//02_Collections, Albert Laguerre, v0.1b
+//02_Collections, Albert Laguerre, v0.1c
 using System;
 
 namespace _02_Collections
@@ -30,6 +30,20 @@ namespace _02_Collections
            Console.WriteLine("testSCores: \n" + String.Join(",", testScores));
            Console.WriteLine();
            Console.WriteLine("Gpa: \n" + String.Join(",", GPA));
+           Console.WriteLine();
+
+           /* Print array contents -- each element on separate line
+           Console.WriteLine("The elements for each array are:\n");
+           Console.WriteLine("breakfastFoods: \n" + String.Join("\n", breakfastFoods));
+           Console.WriteLine();
+           Console.WriteLine("testSCores: \n" + String.Join("\n", testScores));
+           Console.WriteLine();
+           Console.WriteLine("Gpa: \n" + String.Join("\n", GPA));
+           Console.WriteLine();
+           */
+
+
+
 
 
 
