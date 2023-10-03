@@ -1,5 +1,6 @@
-//02_Collections, Albert Laguerre, v0.1a
+//02_Collections, Albert Laguerre, v0.1b
 using System;
+
 namespace _02_Collections
 {
     class Program
@@ -21,6 +22,14 @@ namespace _02_Collections
            string[] breakfastFoods = {"Bacnon", "Waffles", "Pancakes", "Cereal", "Parfait"};
            int[] testScores = {95, 100, 25, 15, 27, 35};
            float[] GPA = {3.15f, 2.25f, 1.74f, 1.99f, 0.99f, 4.25f};
+
+           // Print Array Contents -- ALL elements on Single Line
+           Console.WriteLine("The element for each array are:\n");
+           Console.WriteLine("breakfastFoods: \n" + String.Join(",", breakfastFoods));
+           Console.WriteLine();
+           Console.WriteLine("testSCores: \n" + String.Join(",", testScores));
+           Console.WriteLine();
+           Console.WriteLine("Gpa: \n" + String.Join(",", GPA));
 
 
 
