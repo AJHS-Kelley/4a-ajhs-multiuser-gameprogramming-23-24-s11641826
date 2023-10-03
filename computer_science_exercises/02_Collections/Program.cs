@@ -1,4 +1,4 @@
-//02_Collections, Albert Laguerre, v0.1c
+//02_Collections, Albert Laguerre, v0.1d
 using System;
 
 namespace _02_Collections
@@ -41,6 +41,12 @@ namespace _02_Collections
            Console.WriteLine("Gpa: \n" + String.Join("\n", GPA));
            Console.WriteLine();
            */
+
+           // Determining Array length
+           Console.WriteLine("The length of each array is:\n");
+           Console.WriteLine("breakfastFoods: " + breakfastFoods.Length);
+           Console.WriteLine("testScores: " + testScores.Length);
+           Console.WriteLine("GPA: " + GPA.Length);
 
 
 
