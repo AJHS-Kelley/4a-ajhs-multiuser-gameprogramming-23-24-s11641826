@@ -1,4 +1,4 @@
-//02_Collections, Albert Laguerre, v0.3a
+//02_Collections, Albert Laguerre, v0.3b
 using System;
 
 namespace _02_Collections
@@ -73,12 +73,25 @@ namespace _02_Collections
            testScores[0] = 59;
            GPA[0] = 1.34f;
            Console.WriteLine("The element for each array are:\n");
-           Console.WriteLine("breakfastFoods: \n" + String.Join(", ", breakfastFoods"));
+           Console.WriteLine("breakfastFoods: \n" + String.Join(", ", breakfastFoods));
            Console.WriteLine();
            Console.WriteLine("testScores: \n" + String.Join(", ", testScores));
            Console.WriteLine();
            Console.WriteLine("GPA: \n" + String.Join(", ", GPA));
            Console.WriteLine();
+
+           // PWYOC -- Update fifth element from each array
+           breakfastFoods[4] = "Corn pops Cereal";
+           testScores[4] = 0;
+           GPA[4] = 2.75;
+           Console.WriteLine("The elements for each array are:\n")
+           Console.WriteLine("breakfastFoods: \n" + String.Join(", ", breakfastFoods));
+           Console.WriteLine();
+           Console.WriteLine("testScores: \n" + String.Join(", ", testScores));
+           Console.WriteLine();
+           Console.WriteLine("GPA: \n" + String.Join(", ", GPA));
+           Console.WriteLine();
+
 
 
 
