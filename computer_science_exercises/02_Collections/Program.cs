@@ -1,4 +1,4 @@
-//02_Collections, Albert Laguerre, v0.2a
+//02_Collections, Albert Laguerre, v0.2b
 using System;
 
 namespace _02_Collections
@@ -59,6 +59,13 @@ namespace _02_Collections
            Console.WriteLine("breakfastFoods: " + breakfastFoods[breakfastFoods.Length - 1]);
            Console.WriteLine("testScores: " + testScores[testScores.Length - 1]);
            Console.WriteLine("GPA: " + GPA[GPA.Length - 1]);
+
+           // PWYOC -- Please Write your own code
+           // v0.2b -- Access the third element in each arrau and print to the screen
+           Console.WriteLine("The first element in each array is:\n");
+           Console.WriteLine("breakfastFoods: " + breakfastFoods[2]);
+           Console.WriteLine("testScores: " + testScores[2]);
+           Console.WriteLine("GPA: " + GPA[2]);
 
 
 
