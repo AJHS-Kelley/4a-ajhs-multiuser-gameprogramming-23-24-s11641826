@@ -36,11 +36,17 @@ namespace MethodsParameters
             }
         }
 
+        static void MakeEggs(int num, string style)
+        {
+            Console.WriteLine("You have ordered" + num + "eggs cooked" + style + ".\n")
+        }
+
         static void Main(string[] args)
         {
             //MyMethod();
             //DoubleUp();
             makePancakes(10);
+            MakeEggs(10, "sunny side up");
         }
     }
     
