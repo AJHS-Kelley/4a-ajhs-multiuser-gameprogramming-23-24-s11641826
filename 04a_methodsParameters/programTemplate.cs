@@ -24,7 +24,7 @@ namespace MethodsParameters
             sum = System.Convert.ToInt32(Console.ReadLine());
             sum *= 2;
             Console.WriteLine(sum); 
-            return 0;
+            return sum;
         }
 
         //Methods with Parameters
@@ -46,6 +46,28 @@ namespace MethodsParameters
         {
             Console.WriteLine("I am going to cook " + num + "hamburgers.\n")
         }
+
+        static void AllMyChildren(string child1, string child2, string child3)
+        {
+            Console.WriteLine("My favorite child is " + child3);
+        }
+
+        //METHOD OVERLOADING
+        static int FindSum(int x, int y)
+        {
+            int sum = x + y;
+            Console.WriteLine("sum: " + sum); 
+            return sum;
+        }
+        
+        // Find Sum of Double
+        static int FindSum(double x, double y)
+        {
+            int sum = x + y;
+            Console.WriteLine("sum: " + sum); 
+            return sum;
+        }
+
         static void Main(string[] args)
         {
             //MyMethod();
@@ -54,8 +76,13 @@ namespace MethodsParameters
             //MakeEggs(10, "sunny side up");
             //MakeBurger();
             //MakeBurger(10);
-            AllMyChildren(child3: "Steve", child2: "Susan", child1: "Chewbacca");
-            
+            //AllMyChildren(child3: "Steve", child2: "Susan", child1: "Chewbacca");
+            FindSum(1, 5); // TWO INTEGERS
+            FindSum(9.5, 2.4); // TWO DOUBLES
+            FindSum(5, 2.5) // ONE OF EACH
+
+            float = 1.9999999999
+            double = 1.9999999999999999999999
         }
     }
     
