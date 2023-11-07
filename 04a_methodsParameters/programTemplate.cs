@@ -1,4 +1,5 @@
 // Albert Laguerre, Program template, v0.01
+// All required examples provided. 
 using System;
 
 namespace MethodsParameters
