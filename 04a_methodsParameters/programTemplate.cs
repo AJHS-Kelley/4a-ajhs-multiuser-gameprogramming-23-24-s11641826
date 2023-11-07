@@ -41,12 +41,19 @@ namespace MethodsParameters
             Console.WriteLine("You have ordered" + num + "eggs cooked" + style + ".\n")
         }
 
+        static void MakeBurger(int num = 1)
+        {
+            Console.WriteLine("I am going to cook " + num + "hamburgers.\n")
+        }
         static void Main(string[] args)
         {
             //MyMethod();
             //DoubleUp();
-            makePancakes(10);
-            MakeEggs(10, "sunny side up");
+            //makePancakes(10);
+            //MakeEggs(10, "sunny side up");
+            MakeBurger();
+            MakeBurger(10);
+            
         }
     }
     
