@@ -41,6 +41,7 @@ namespace MethodsParameters
             Console.WriteLine("You have ordered" + num + "eggs cooked" + style + ".\n")
         }
 
+        //Named Arguments
         static void MakeBurger(int num = 1)
         {
             Console.WriteLine("I am going to cook " + num + "hamburgers.\n")
@@ -51,8 +52,9 @@ namespace MethodsParameters
             //DoubleUp();
             //makePancakes(10);
             //MakeEggs(10, "sunny side up");
-            MakeBurger();
-            MakeBurger(10);
+            //MakeBurger();
+            //MakeBurger(10);
+            AllMyChildren(child3: "Steve", child2: "Susan", child1: "Chewbacca");
             
         }
     }
