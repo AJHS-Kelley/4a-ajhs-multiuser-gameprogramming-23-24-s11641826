@@ -7,8 +7,8 @@ namespace UPDATEFOREACHPROGRAM
 
     {
         int shakeDice = 3; 
-        int bettingAmount = 
-        int 
+        int bettingAmount = ''
+        int numberofPlayers = ''
         
         static void shakeDice()
         {
@@ -25,7 +25,7 @@ namespace UPDATEFOREACHPROGRAM
 
         }
 
-        static void ()
+        static void numberofPlayers()
         {
 
         }
