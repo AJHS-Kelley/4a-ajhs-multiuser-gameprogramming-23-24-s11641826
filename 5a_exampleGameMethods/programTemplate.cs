@@ -18,7 +18,7 @@ namespace UPDATEFOREACHPROGRAM
         static void rollDice()
         {
                 rollDice(numDice, sizeDice):
-                 numRolled = 0
+                numRolled = 0
                 sum = 0
                 while numRolled < numDice:
                 roll = random.randint(1, sizeDice)
