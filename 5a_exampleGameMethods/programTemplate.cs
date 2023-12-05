@@ -33,7 +33,7 @@ namespace UPDATEFOREACHPROGRAM
 
         static void bettingAmount()
         {
-
+            
         }
 
         static void numberofDice()
