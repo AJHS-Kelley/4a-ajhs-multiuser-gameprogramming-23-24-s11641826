@@ -39,7 +39,26 @@ namespace UPDATEFOREACHPROGRAM
         static void numberofDice()
         {
             numberofDice = 2
-            sum = 2
+            dice = int(input("Dice: "))
+
+        if (dice <= 0):
+            print("Must at least have one dice!")
+
+        sides = int(input("Sides: "))
+
+        if (sides <= 0):
+            print("Must at least have one side!")
+
+        roll = []
+
+        for i in range(0,dice):
+            face = random.randint(1,sides)
+            roll.append(face)
+
+        print(roll)
+
+        random.randint(1,6)
+
         }
 
         static void rounds()
