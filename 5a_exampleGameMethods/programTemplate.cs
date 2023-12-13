@@ -1,93 +1,23 @@
-// Albert  Laguerre, Program Template, v0.01
-using System
+Albert Laguerre, Program Template, v0.01
+using System;
 
-namespace UPDATEFOREACHPROGRAM
+class Program
 {
-    class UPDATEFOREACHPROGRAM
-
+    static void Main()
     {
-    static void Main(string[] args)
-        
-        int = player1 = 0;
-        int = player1wins = 0;
-        int = player2 = 0;
-        int = player2wins = 0;
-        int = rollDice = 0;
-        int = rounds = 1;
+        Console.WriteLine("Welcome to the Dice Game!");
 
-        static void rollDice()
+        Random random = new Random();
+        int player1Score = 0;
+        int player2Score = 0;
+
+        for (int round = 1; round <= 3; round++)
         {
-            rollDice(numDice, sizeDice):
-            numRolled = 0
-            sum = 0
-            while numRolled < numDice:
-                roll = random.randint(1, sizeDice)
-                sum += roll
-                print(f"Roll: {roll}\n")
-                print(f"Sum: {sum}\n")
-                numRolled += 1
-        }   
+            Console.WriteLine($"\nRound {round}");
 
-        static void diceRoll()
-        {
-            diceRoll = random.randint(1, 6)
-            return diceRoll
-        }   
+            Console.WriteLine("Player 1, press Enter to roll the dice...");
+            Console.ReadLine();
+            int dice1 = random.Next(1, 7);
+            Console.WriteLine($"Player 1 rolled a {dice1}");
+            player1Score += dice1;
 
-        static void rounds()
-        {
-            print("Round " + str(rounds))
-            player1 = rollDice()
-            player2 = rollDice()
-            print("Player 1 Roll: " + str(player1))
-            print("Player 2 Roll: " + str(player2))
-
-            if player1 == player2:
-                print("Draw!")
-            elif player1 > player2:
-                player1wins = player1wins + 1
-                print("Player 1 wins!")
-            else:
-                player2wins = player2wins + 1
-                print("Player 2 wins!")
-    
-            rounds = rounds + 1 
-
-            if player1wins == player2wins:
-                print("Draw!")
-            elif player1wins > player2wins:
-                print("Player 1 Wins! ")
-            else:
-                print("Player 2 Wins! ")
-        }   
-
-        static void ()
-        {
-            dice = int(input("Dice: "))
-
-            if (dice <= 0):
-                print("Must at least have one dice!")
-
-            sides = int(input("Sides: "))
-
-            if (sides <= 0):
-                print("Must at least have one side!")
-
-            roll = []
-
-            for i in range(0,dice):
-                face = random.randint(1,sides)
-                roll.append(face)
-
-            print(roll)
-
-            random.randintshuifshuffle(roll)
-            random.randint(1,6)
-        }   
-
-
-    }    
-
-       
-    
-}
